@@ -45,6 +45,10 @@
 .nav-links a:hover {
   color: #0c8699;
 }
+
+.nav-links a.active{
+    color: #0c8699;
+}
 .nav-btn {
   background-color: #000;
   color: white;
@@ -161,7 +165,7 @@ section h1 {
 }
 
 .card {
-  border: 1px solid rgb(173, 55, 55);
+  border: 1px solid rgb(207, 192, 192);
   border-radius: 40px;
   width: 300px;
   text-align: center;
@@ -199,6 +203,8 @@ section h1 {
 .footer-contact ul li {
   width: 200px;
   padding: 0px;
+  line-height: 1.6;
+
 }
 
 .footer div {
@@ -222,7 +228,7 @@ li span {
   list-style: none;
 }
 
-.footer-hubspot li span {
+.footer-notion li span {
   color: white;
   background-color: green;
   border-radius: 30px;
